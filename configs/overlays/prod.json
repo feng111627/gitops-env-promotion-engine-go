@@ -1,0 +1,10 @@
+{
+  "app": {
+    "replicas": 4,
+    "logLevel": "warn",
+    "features": ["cache", "canary"]
+  },
+  "db": {
+    "host": "db.prod.internal"
+  }
+}

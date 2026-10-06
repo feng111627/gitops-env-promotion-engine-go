@@ -1,0 +1,10 @@
+{
+  "fields": [
+    { "path": "app.name", "type": "string", "default": "unnamed-app" },
+    { "path": "app.replicas", "type": "number", "default": 1 },
+    { "path": "app.logLevel", "type": "string", "default": "info" },
+    { "path": "app.tracing.enabled", "type": "bool", "default": false },
+    { "path": "http.retries", "type": "number", "default": 3 },
+    { "path": "http.timeoutSeconds", "type": "number", "default": 5 }
+  ]
+}

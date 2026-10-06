@@ -1,0 +1,11 @@
+{
+  "rules": [
+    { "name": "app-name-required", "kind": "required", "field": "app.name" },
+    { "name": "app-name-shape", "kind": "pattern", "field": "app.name", "pattern": "^[a-z][a-z0-9-]{1,31}$" },
+    { "name": "replicas-range", "kind": "range", "field": "app.replicas", "min": 1, "max": 10 },
+    { "name": "timeout-range", "kind": "range", "field": "http.timeoutSeconds", "min": 1, "max": 60 },
+    { "name": "log-level-enum", "kind": "enum", "field": "app.logLevel", "enum": ["debug", "info", "warn", "error"] },
+    { "name": "db-password-required", "kind": "required", "field": "db.password" },
+    { "name": "db-password-no-plaintext", "kind": "noPlaintextSecret", "field": "db.password" }
+  ]
+}

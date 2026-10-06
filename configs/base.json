@@ -1,0 +1,17 @@
+{
+  "app": {
+    "name": "checkout",
+    "replicas": 1,
+    "logLevel": "info",
+    "features": ["cache"]
+  },
+  "db": {
+    "host": "db.internal",
+    "port": 5432,
+    "name": "checkout",
+    "password": "secret://db/password"
+  },
+  "http": {
+    "timeoutSeconds": 5
+  }
+}

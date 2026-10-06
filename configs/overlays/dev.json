@@ -1,0 +1,10 @@
+{
+  "app": {
+    "replicas": 1,
+    "logLevel": "debug",
+    "features": ["cache", "debugbar"]
+  },
+  "db": {
+    "host": "db.dev.internal"
+  }
+}

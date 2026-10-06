@@ -1,0 +1,6 @@
+# 本地运行产生的已应用状态（可能含已注入的配置快照）
+configs/state/
+
+# 真实密钥文件，只保留 .example
+configs/secrets.json
+secrets.json
