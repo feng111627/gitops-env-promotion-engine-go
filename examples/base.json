@@ -1,0 +1,6 @@
+{
+  "replicas": 1,
+  "image": "app:1.0.0",
+  "resources": {"cpu": "100m", "memory": "128Mi"},
+  "db": {"host": "localhost", "password": "secret://db/password"}
+}

@@ -1,0 +1,5 @@
+{
+  "replicas": 3,
+  "image": "app:1.2.0",
+  "resources": {"cpu": "500m"}
+}

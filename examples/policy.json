@@ -1,0 +1,7 @@
+{
+  "Rules": [
+    {"Field": "replicas", "Required": true, "Min": 1, "Max": 10},
+    {"Field": "image", "Required": true},
+    {"Field": "db", "Required": true}
+  ]
+}
